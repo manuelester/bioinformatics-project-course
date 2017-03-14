@@ -1,0 +1,12 @@
+Objectives for today:
+
+DONE Edit current PSSM code to take PSSM input files from the PSI-BLAST we ran
+
+DONE Add loop code to open each PSSM file and append it to the list of PSSMs for each residue
+
+DONE How to match amino acid positions with features since they are no longer in order?
+
+Figure out how best to run the cross validation and visualize performance of the SVM
+
+New problem found: Duplicate protein names in dataset file, but to run PSI-BLAST we modified the names of the files when there was a duplicate to contain _2 etc at the end. Therefore when pulling PSI-BLAST data I'm always pulling from the original ID file because I'm pulling according to protID from the dataset file.
+
