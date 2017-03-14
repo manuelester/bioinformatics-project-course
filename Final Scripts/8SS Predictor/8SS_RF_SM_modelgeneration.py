@@ -1,3 +1,5 @@
+print('WARNING: In order to run this code, PSSM files for all the corresponding proteins in the dataset must first be available in a folder named PSSM')
+
 def randomforest(windowsize):
 	print('building random forest predictor for window size of: ' + str(windowsize) )
 	import matplotlib
