@@ -1,0 +1,11 @@
+Instructions for Running 8SS Predictor:
+
+1. Copy your desired fasta test file, with format proteinid.fasta, into the 8SS Predictor folder
+
+2. If the file randomforest_SM_model.pkl is already present in the folder, proceed to step 4.
+
+3. Generate the .pkl modelfile by running the 8SS_RF_SM_modelgeneration.py file in python3.
+
+4. After making sure your model file, randomforest_FM_model.pkl, is present in the folder, run the 8SS_BASH.sh script (bash 8SS_BAST.sh) in the terminal.
+
+5. Voila! Your secondary structure prediction will be available in the corresponding _prediction.txt file. 
